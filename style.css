@@ -100,16 +100,30 @@ button {
 
 .mid-info {
 	align-self: center;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
 }
 
-.mid-box-container {
+.mid-box-container,
+.subtext-container {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.mid-box,
+.subtext {
+	width: 210px;
+	height: 210px;
 }
 
 .mid-box {
 	border: 2px solid;
 	border-radius: 15px;
-	min-width: 200px;
-	height: 200px;
+}
+
+.subtext {
+	padding-top: 15px;
+	font-size: 18px;
+	text-align: center;
 }
