@@ -6,7 +6,8 @@ body {
 	flex-direction: column;
 }
 
-.header-container {
+.header-container,
+.footer-container {
 	background-color: #1F2937;
 	display: flex;
 	flex-direction: column;
@@ -169,11 +170,12 @@ button {
 	gap: 7px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	padding: 0px 10px;
 }
 
 .cta-signup,
-.cta-item {
+.cta-item,
+.footer {
 	color: #F9FAF8;
 	font-size: 18px;
 }
@@ -196,4 +198,11 @@ button {
 
 .call-to-action button {
 	border: 3px solid #F9FAF8;
+}
+
+.footer-container {
+	display: flex;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
 }
