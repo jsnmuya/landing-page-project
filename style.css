@@ -105,25 +105,29 @@ button {
 	color: #1F2937;
 }
 
-.mid-box-container,
-.subtext-container {
+.mid-box-container {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
-.mid-box,
+.mid-box {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.box,
 .subtext {
 	width: 210px;
 	height: 210px;
 }
 
-.mid-box {
+.box {
 	border: 2px solid #3882f6;
 	border-radius: 15px;
 }
-
 .subtext {
-	padding-top: 15px;
 	font-size: 18px;
 	text-align: center;
 }
